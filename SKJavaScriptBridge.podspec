@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                     Chinese :更简单、更轻、更易使用的原生和 JavaScript框架.
                    DESC
 
-  s.homepage     = "https://github.com/housenkui/SKJavaScriptBridge"
+  s.homepage     = "https://github.com/housenkui/JavaScriptBridge"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/housenkui/SKJavaScriptBridge.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/housenkui/JavaScriptBridge.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SKJavaScriptBridge", "SKJavaScriptBridge/**/*.{h,m}"
+  s.source_files  = "SKJavaScriptBridge","*.{h,m}"
 # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
