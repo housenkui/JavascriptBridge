@@ -29,7 +29,7 @@ void _swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector)
     }
 }
 
-@implementation WKWebView (JavaScriptBridge)
+@implementation WKWebView (JavascriptBridge)
 
 +(void)load {
     _swizzleMethod([self class], @selector(initWithFrame:configuration:), @selector(initWithJavaScriptBridgeFrame:configuration:));

@@ -18,7 +18,7 @@ typedef NSDictionary WVJBMessage;
 typedef void (^WVJBResponseCallback)(id responseData);
 typedef void (^WVJBHandler)(id data, WVJBResponseCallback responseCallback);
 
-@interface WKWebView (JavaScriptBridge)<WKScriptMessageHandler>
+@interface WKWebView (JavascriptBridge)<WKScriptMessageHandler>
 @property (strong, nonatomic) NSMutableDictionary* responseCallbacks;
 @property (strong, nonatomic) NSMutableDictionary* messageHandlers;
 @property (strong, nonatomic) WVJBHandler messageHandler;
