@@ -1,7 +1,7 @@
 WebViewJavascriptBridge
 =======================
 
-An iOS/OSX bridge for sending messages between Obj-C and JavaScript in WKWebViews.
+An iOS/OSX bridge for sending messages between Obj-C and JavaScript in WKWebViews. Also easy to get js console.log.
 
 More simple more light.  Refactor WebViewJavascriptBridge with AOP
 ==========================
