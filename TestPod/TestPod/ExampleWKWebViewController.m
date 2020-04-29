@@ -7,7 +7,6 @@
 //
 
 #import "ExampleWKWebViewController.h"
-//#import "WKWebView+JavaScriptBridge.h"
 #import "WebViewJavascriptBridge.h"
 @interface ExampleWKWebViewController ()
 @property (nonatomic, strong) WKWebView *webView;

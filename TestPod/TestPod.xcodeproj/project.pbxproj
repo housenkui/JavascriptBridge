@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5AD61B33D366E2ADF93E156D /* libPods-TestPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E387BAA3859F867FBE51F20 /* libPods-TestPod.a */; };
-		EF5D0B20245900FC008DC69C /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D0B1F245900FC008DC69C /* WebViewJavascriptBridgeBase.m */; };
-		EF5D0B232459011C008DC69C /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D0B222459011C008DC69C /* WebViewJavascriptBridge.m */; };
-		EF5D0B2B24590E24008DC69C /* WebViewJavascriptLeakAvoider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D0B2A24590E24008DC69C /* WebViewJavascriptLeakAvoider.m */; };
 		EFB7D6BB2349C17900BC5118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7D6BA2349C17900BC5118 /* AppDelegate.m */; };
 		EFB7D6BE2349C17900BC5118 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7D6BD2349C17900BC5118 /* ViewController.m */; };
 		EFB7D6C12349C17900BC5118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB7D6BF2349C17900BC5118 /* Main.storyboard */; };
@@ -28,12 +25,6 @@
 		EF05866A2441E0F400FD174D /* libavdevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.dylib; path = "../../../../ffmpeg/代码/FFmpeg/FFmpeg/libs/libavdevice.dylib"; sourceTree = "<group>"; };
 		EF05866B2441E0F400FD174D /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = "../../../../ffmpeg/代码/FFmpeg/FFmpeg/libs/libavformat.dylib"; sourceTree = "<group>"; };
 		EF05866C2441E0F400FD174D /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = "../../../../ffmpeg/代码/FFmpeg/FFmpeg/libs/libavutil.dylib"; sourceTree = "<group>"; };
-		EF5D0B1E245900FC008DC69C /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		EF5D0B1F245900FC008DC69C /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		EF5D0B212459011C008DC69C /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		EF5D0B222459011C008DC69C /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		EF5D0B2924590E24008DC69C /* WebViewJavascriptLeakAvoider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptLeakAvoider.h; sourceTree = "<group>"; };
-		EF5D0B2A24590E24008DC69C /* WebViewJavascriptLeakAvoider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptLeakAvoider.m; sourceTree = "<group>"; };
 		EFB7D6B62349C17900BC5118 /* TestPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB7D6B92349C17900BC5118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFB7D6BA2349C17900BC5118 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,12 +100,6 @@
 				EFB7D6BD2349C17900BC5118 /* ViewController.m */,
 				EFB7D6D02349C26D00BC5118 /* ExampleWKWebViewController.h */,
 				EFB7D6CF2349C26D00BC5118 /* ExampleWKWebViewController.m */,
-				EF5D0B1E245900FC008DC69C /* WebViewJavascriptBridgeBase.h */,
-				EF5D0B1F245900FC008DC69C /* WebViewJavascriptBridgeBase.m */,
-				EF5D0B212459011C008DC69C /* WebViewJavascriptBridge.h */,
-				EF5D0B222459011C008DC69C /* WebViewJavascriptBridge.m */,
-				EF5D0B2924590E24008DC69C /* WebViewJavascriptLeakAvoider.h */,
-				EF5D0B2A24590E24008DC69C /* WebViewJavascriptLeakAvoider.m */,
 				EFB7D6BF2349C17900BC5118 /* Main.storyboard */,
 				EFB7D6C22349C17A00BC5118 /* Assets.xcassets */,
 				EFB7D6C42349C17A00BC5118 /* LaunchScreen.storyboard */,
@@ -222,12 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB7D6BE2349C17900BC5118 /* ViewController.m in Sources */,
-				EF5D0B232459011C008DC69C /* WebViewJavascriptBridge.m in Sources */,
 				EFB7D6C92349C17A00BC5118 /* main.m in Sources */,
 				EFB7D6D12349C26D00BC5118 /* ExampleWKWebViewController.m in Sources */,
 				EFB7D6BB2349C17900BC5118 /* AppDelegate.m in Sources */,
-				EF5D0B20245900FC008DC69C /* WebViewJavascriptBridgeBase.m in Sources */,
-				EF5D0B2B24590E24008DC69C /* WebViewJavascriptLeakAvoider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

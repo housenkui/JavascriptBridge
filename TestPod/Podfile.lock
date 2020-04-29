@@ -1,16 +1,16 @@
 PODS:
-  - SKJavaScriptBridge (1.0.1)
+  - SKJavaScriptBridge (1.0.3)
 
 DEPENDENCIES:
-  - SKJavaScriptBridge (~> 1.0.1)
+  - SKJavaScriptBridge (~> 1.0.3)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - SKJavaScriptBridge
 
 SPEC CHECKSUMS:
-  SKJavaScriptBridge: f7a175765578ea68266d62b12952463c1e6fb45a
+  SKJavaScriptBridge: 1485c4d7853615a71e55beb3fb662f63e54d0f30
 
-PODFILE CHECKSUM: f20f5f48f65590f6c4c1e889f8e4d338840c8bec
+PODFILE CHECKSUM: 54ade91e276cb994bb82bba79d55928ec16c7113
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.1
