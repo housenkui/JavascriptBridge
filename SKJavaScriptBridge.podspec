@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SKJavaScriptBridge"
-  s.version      = "1.0.2"
-  s.summary      = "More simple more light more easy to use for iOS/OSX bridge with Javascript."
+  s.version      = "1.0.3"
+  s.summary      = "More simple more light more easy to use for iOS/OSX bridge with Javascript. Also can get js console.log ~"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
