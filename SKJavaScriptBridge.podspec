@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SKJavascriptBridge"
+  s.name         = "SKJavaScriptBridge"
   s.version      = "1.0.2"
   s.summary      = "More simple more light more easy to use for iOS/OSX bridge with Javascript."
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "侯森魁" => "840737320@qq.com" }
   # Or just: s.author    = "侯森魁"
-  # s.authors            = { "侯森魁" => "housenkui@gmail.com" }
+#   s.authors            = { "侯森魁" => "housenkui@gmail.com" }
   # s.social_media_url   = "http://twitter.com/侯森魁"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SKJavascriptBridge","*.{h,m}"
+  s.source_files  = "SKJavaScriptBridge"
 # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
