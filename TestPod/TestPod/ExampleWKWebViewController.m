@@ -8,8 +8,9 @@
 
 #import "ExampleWKWebViewController.h"
 #import "WebViewJavascriptBridge.h"
+#import "SKWebView.h"
 @interface ExampleWKWebViewController ()
-@property (nonatomic, strong) WKWebView *webView;
+@property (nonatomic, strong) SKWebView *webView;
 @property (nonatomic, strong) WebViewJavascriptBridge* bridge;
 @end
 
@@ -18,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    self.webView = [[SKWebView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:self.webView];
     
     _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView

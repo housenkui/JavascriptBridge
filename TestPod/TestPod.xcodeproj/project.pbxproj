@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5AD61B33D366E2ADF93E156D /* libPods-TestPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E387BAA3859F867FBE51F20 /* libPods-TestPod.a */; };
+		EF5D0B37245D3D72008DC69C /* SKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5D0B36245D3D72008DC69C /* SKWebView.m */; };
 		EFB7D6BB2349C17900BC5118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7D6BA2349C17900BC5118 /* AppDelegate.m */; };
 		EFB7D6BE2349C17900BC5118 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7D6BD2349C17900BC5118 /* ViewController.m */; };
 		EFB7D6C12349C17900BC5118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB7D6BF2349C17900BC5118 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 		EF05866A2441E0F400FD174D /* libavdevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.dylib; path = "../../../../ffmpeg/代码/FFmpeg/FFmpeg/libs/libavdevice.dylib"; sourceTree = "<group>"; };
 		EF05866B2441E0F400FD174D /* libavformat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.dylib; path = "../../../../ffmpeg/代码/FFmpeg/FFmpeg/libs/libavformat.dylib"; sourceTree = "<group>"; };
 		EF05866C2441E0F400FD174D /* libavutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.dylib; path = "../../../../ffmpeg/代码/FFmpeg/FFmpeg/libs/libavutil.dylib"; sourceTree = "<group>"; };
+		EF5D0B35245D3D72008DC69C /* SKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKWebView.h; sourceTree = "<group>"; };
+		EF5D0B36245D3D72008DC69C /* SKWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKWebView.m; sourceTree = "<group>"; };
 		EFB7D6B62349C17900BC5118 /* TestPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB7D6B92349C17900BC5118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFB7D6BA2349C17900BC5118 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				EFB7D6BD2349C17900BC5118 /* ViewController.m */,
 				EFB7D6D02349C26D00BC5118 /* ExampleWKWebViewController.h */,
 				EFB7D6CF2349C26D00BC5118 /* ExampleWKWebViewController.m */,
+				EF5D0B35245D3D72008DC69C /* SKWebView.h */,
+				EF5D0B36245D3D72008DC69C /* SKWebView.m */,
 				EFB7D6BF2349C17900BC5118 /* Main.storyboard */,
 				EFB7D6C22349C17A00BC5118 /* Assets.xcassets */,
 				EFB7D6C42349C17A00BC5118 /* LaunchScreen.storyboard */,
@@ -210,6 +215,7 @@
 				EFB7D6C92349C17A00BC5118 /* main.m in Sources */,
 				EFB7D6D12349C26D00BC5118 /* ExampleWKWebViewController.m in Sources */,
 				EFB7D6BB2349C17900BC5118 /* AppDelegate.m in Sources */,
+				EF5D0B37245D3D72008DC69C /* SKWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
