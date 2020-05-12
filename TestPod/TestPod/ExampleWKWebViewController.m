@@ -21,12 +21,11 @@
     
     self.webView = [[SKWebView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:self.webView];
-    
-    _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView
-                                          showJSconsole:YES
-                                          enableLogging:YES];
-    
-    
+    if(!_bridge){
+                 _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView
+                 showJSconsole:YES
+                 enableLogging:YES];
+    }    
     [_bridge registerHandler:@"testObjcCallback" handler:^(id data, WVJBResponseCallback responseCallback) {
         NSLog(@"testObjcCallback called: %@", data);
         responseCallback(@"Response from testObjcCallback");
