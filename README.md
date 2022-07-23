@@ -1,4 +1,4 @@
-[Please Jump](https://github.com/SDBridge/SDBridgeOC) to [here](https://github.com/SDBridge/SDBridgeOC).
+[Please Jump 请使用这个库，它更加完善](https://github.com/SDBridge/SDBridgeOC) to [here](https://github.com/SDBridge/SDBridgeOC).
 
 
 WebViewJavascriptBridge
